@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(197, 184, 184);
+    width: 20vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(139, 132, 132);
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(187, 255, 0); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 55px;
+
+}
+
+.name {
+    font-size: 55px;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 40px;
+
+
+}
+
+.aboutmore {
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn button {
+
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px 3px;
+    background-color: rgb(72, 72, 151);
+    cursor: pointer;
+
+}
+
+.sbtn {
+    padding: 1px 12px;
+    border-radius: 22px;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px 3px;
+    background-color: rgb(72, 72, 151);
+    cursor: pointer;
+
+}
+
+.sbtn:hover {
+    background-color: white;
+    color: rgb(110, 110, 123);
+}
+
+.btn button:hover {
+    background-color: white;
+    color: rgb(212, 212, 228);
+}
+
+.devpic img {
+    height: 58vh;
+
+}
+
+.clogo {
+    /* display: block; */
+    /* margin-left: 255px;
+    margin-right: 522px; */
+    width: 100px;
+    margin: -125px 0px 1px 193px;
+
+}
+
+
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+.contactform h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 12px 0;
+
+}
+
+
+
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.mb-3:hover{
+    color: blue;
+    
+
+}
+.services box
+
+.contactform form div input {
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: blue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+
+}
+
+#cbackground {
+    background-image: url("background.jpeg");
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+
+    z-index: 50;
+    opacity: 1;
+
+}
